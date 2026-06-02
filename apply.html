@@ -10,8 +10,10 @@
     <title>StudentNest</title>
 </head>
 <body>
-    <header class="navbar">
-        <h1>StudentNest |</h1>
+    <header class="navbarHome">
+    <div class="logo">
+        <img src="logopng.png" alt="Full logo"></div>
+        <h1>StudentNest |</h1> 
         <h1 class="slogan">A Trusted Student Accommodation Platform</h1>
         <nav class="Links">
             <ul >
@@ -22,9 +24,11 @@
         </nav>
     </header>
     <div class="box">
-    <img src="istockphoto-1411569766-612x612.jpg" alt="background">
-    <h2>Let's Help You Find Your HOME</h2>
+    <img src="30971554_99z_2206_w009_n001_150b_p14_150.jpg.jpeg" alt="background">
+         <h1>Let's Help You Find Your HOME</h1>
     </div>
+    <h2 class="details">Fill in your details.</h2>
+    <div class="inputs">
 <div>
     <label for="fname">Full Name(s):</label>
     <input type="text" id="fname" placeholder="Enter Name" required>
@@ -37,14 +41,18 @@
 <br>
 <div>
     <label for="title">Title:</label>
+    
     <label for="Mr.">Mr.:</label>
     <input type="radio" id="Mr." name="Title: " value="Mr.">
+
+    <label for="Ms.">Ms.:</label>
+    <input type="radio" id="Ms." name="Title: " value="Ms.">
 
     <label for="Mrs.">Mrs.:</label>
     <input type="radio" id="Mrs." name="Title: " value="Mrs.">
     
     <label for="PhD">PhD:</label>
-    <input type="radio" id="PhD." name="Title: " value="PhD">
+    <input type="radio" id="PhD" name="Title: " value="PhD">
 </div>
 <br>
 <div>
@@ -97,8 +105,8 @@
 <div>
     <label for="dur">Accommodation Duration: </label>
     <select name="dur" id="dur">
-        <option value="1 Year">1 Year(1st & 2nd Semester 2026)</option>
-        <option value="6 months">6 Months(1st Semester 2026)</option>
+        <option value="1 Year" disabled>1 Year(1st & 2nd Semester 2026)</option>
+        <option value="6 months" disabled>6 Months(1st Semester 2026)</option>
         <option value="6 months">6 Months(2nd Semester 2026)</option>
     
     </select>
@@ -106,24 +114,25 @@
 </div>
 <br>
 <div>
-    <label for="notify">Allow us to notify you on the latest available accommodations around campus? </label>
+    <label class="notif" for="notify">Allow us to notify you on the latest available accommodations around campus? </label>
     <input type="checkbox" id="notify" name="notify" >
+</div>
 </div>
 <br>
 </div>
     <div class = "button2">
     <a href="Accommodation.html" class="button-link2">APPLY</a>
     </div>
-
-    <div class="table">
-        <h3>If you have any queries related to the application process please contact one of consults below.</h3>
+<h3 class="cpa">If you have any queries related to the application process please contact one of our consultants below.</h3>
+    <div class="tables">
+        
         <table>
             <tr>
                 <th>
                     Name
                 </th>
                 <th>
-                    email
+                    Email
                 </th>
             </tr>
             <tr>
@@ -133,6 +142,56 @@
                 <td>
                     
                  <a href="mailto:224844709@edu.vut.ac.za">224844709@edu.vut.ac.za</a>
+
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    Radebe
+                </td>
+                <td>
+                    
+                 <a href="mailto:223762636@edu.vut.ac.za">223762636@edu.vut.ac.za</a>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Kwinda
+                </td>
+                <td>
+                    
+                 <a href="mailto:224663879@edu.vut.ac.za">224663879@edu.vut.ac.za</a>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mokoka
+                </td>
+                <td>
+                    
+                 <a href="mailto:224266993@edu.vut.ac.za">224266993@edu.vut.ac.za</a>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mwamba
+                </td>
+                <td>
+                    
+                 <a href="mailto:225121859@edu.vut.ac.za">225121859@edu.vut.ac.za</a>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mbele
+                </td>
+                <td>
+                    
+                 <a href="mailto:222321598@edu.vut.ac.za">222321598@edu.vut.ac.za</a>
 
                 </td>
             </tr>

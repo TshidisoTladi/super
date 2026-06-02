@@ -2,17 +2,36 @@ body {
     font-family: Cormorant,serif;
     padding: 0;
     margin: 0;
+    
 }
+
 h1{
     display: inline-block;
-    font-weight: bold;
-    margin: 0 12px 0 0;
+    font-weight: 650;
+    margin: 0 12px 0 0 ;
 
+}
+.logo{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 ;
+    padding: 0 ;
+    width: 100px;
+    transform: translate(20px, 13px);
+    display: inline-block;
+    
+    
 }
 h1.slogan{
     display: inline-block;
-    font-weight: bold;
-    margin: 0 0 0 0;
+    font-weight: 650;
+    margin: 0 ;
     font-size: 17px;
     width: 200px;
     
@@ -31,6 +50,11 @@ font-weight: bold;
 }
 .navbar{
     margin: 32px;
+    background-color: white;
+}
+.navbarHome{
+    margin:0 32px 32px 32px;
+    background-color: white;
 }
 .Links ul{
     padding: 0;
@@ -106,6 +130,7 @@ a.active{
     filter: brightness(60%);
     
 }
+
 .button, .button2{
     text-align: center;
 }
@@ -123,7 +148,7 @@ a.active{
     font-weight: bold;
 }
 .button-link:hover {
-    background-color: #0056b3;
+    background-color: #57ce08ef;
 }
 .button-link2{
     display: inline-block;
@@ -140,18 +165,29 @@ a.active{
 }
 table{
     width: 400px;
+    text-align: center;
+}
+.tables{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: -170px auto 0 auto;
 }
 th{
     text-align: center;
     background-color: #ddd;
+
 }
 table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
+    
 }
 th,td{
     padding: 10px;
     text-align: center;
+    font-size: 18px;
 }
 footer{
     background-color: #111;
@@ -172,4 +208,67 @@ footer{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+}
+h2.details{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.inputs{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cpa{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 750;
+}
+label{
+    font-size: 25px;
+    font-weight: 590;
+    word-spacing: 5px;
+    margin-right: 5px;
+}
+label.notif{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+input{
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.588) ;
+    height: 35px;
+}
+
+
+input::placeholder{
+    font-size: 16px;
+    
+}
+input:focus,
+input:valid{
+    
+    border: 2.1px solid #66ff00;
+    
+}
+input:focus::placeholder{
+    color: #66ff00;   
+}
+.Avail{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.Avail h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+}
+h2.availAcom{
+    color: green;
 }
